@@ -1,0 +1,59 @@
+## Core LaTeX auxiliary files:
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+
+## Intermediate documents:
+*.dvi
+*.xdv
+*-converted-to.*
+*.bcf
+*.run.xml
+
+## Bibliography:
+*.bbl
+*.blg
+*-blx.aux
+*-blx.bib
+
+## Build tool files:
+*.fdb_latexmk
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+
+## Editor-specific:
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.ist
+*.flg
+*.idx
+*.ilg
+*.ind
+*.lof
+*.lot
+*.maf
+*.mtc
+*.mtc0
+*.nav
+*.pre
+*.snm
+*.vrb
+
+## Misc:
+*.nav
+*.snm
+*.vrb
