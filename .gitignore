@@ -57,3 +57,8 @@
 *.nav
 *.snm
 *.vrb
+
+# macOS system files
+Icon?
+Icon\r
+.DS_Store
