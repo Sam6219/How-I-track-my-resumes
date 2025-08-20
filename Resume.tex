@@ -1,0 +1,118 @@
+% Preamble: Document settings and packages
+\documentclass[11pt, letterpaper]{article} % Document type and basic size/paper format
+
+% Font Setup: Using Source Sans Pro for a clean, professional sans-serif look.
+\usepackage[sfdefault]{sourcesanspro}
+\renewcommand{\familydefault}{\sfdefault} % Make sans-serif the default font for the whole document
+
+% Page Layout and Spacing
+\usepackage[top=0.7in, bottom=0.7in, left=0.7in, right=0.7in]{geometry} % Sets uniform margins around the page
+\usepackage{enumitem}       % For custom list spacing and indentation
+\usepackage{hyperref}       % For clickable links (email, LinkedIn)
+\usepackage{xcolor}         % For colors, e.g., in links
+\usepackage{titlesec}       % For customizing section titles
+
+% Justification without hyphens
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\sloppy
+
+% Remove page numbers, as is standard for resumes
+\pagestyle{empty}
+
+% Configure hyperref for blue links
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+    citecolor=blue
+}
+
+% Define how \section* commands look for resume sections
+\titleformat{\section}{\normalfont\fontsize{13}{15}\selectfont\bfseries\uppercase}{}{0em}{}
+\titlespacing{\section}{0pt}{6pt}{3pt}
+
+% Custom command for section headings and their full-width rules
+\newcommand{\resumesection}[1]{%
+    \section*{#1}
+    \vspace{-8pt}
+    \noindent\rule{\textwidth}{0.6pt}
+    \vspace{1pt}
+    \noindent
+}
+
+% Customize itemize lists for resume formatting
+\setlist[itemize]{leftmargin=*, itemsep=1pt, parsep=0pt, topsep=0pt}
+
+% --- Start of the Document Content ---
+\begin{document}
+
+% --- Name and Contact Information ---
+\begin{center}
+{\fontsize{28}{32}\selectfont Saumya Patel}
+\end{center}
+
+% \vspace{6pt}
+
+% Contact information block
+\begin{center}
+\href{mailto:jobs@saumyapatel.com}{jobs@saumyapatel.com} \quad | \quad \href{https://linkedin.com/in/contact-saumya-patel}{LinkedIn} \quad | \quad \href{https://github.com/Sam6219}{GitHub} \quad | \quad London, UK
+\end{center}
+
+\vspace{2pt}
+
+% --- PROFESSIONAL SUMMARY Section ---
+\resumesection{PROFESSIONAL SUMMARY}Computer Engineering student with hands-on experience in Python, JavaScript, and NLP technologies. Designed AI-powered summarization tools achieving 55\% text reduction and 30\% accuracy improvement in domain-specific processing. Proficient in full-stack web development and embedded systems integration, with expertise in creating responsive applications and IoT solutions. Passionate about leveraging machine learning and modern web technologies to solve complex problems and enhance user experiences.
+
+\vspace{6pt}
+
+% --- SKILLS Section ---
+\resumesection{SKILLS}\textbf{Technical skills:} Python, NLP (LLM, Prompt Engineering), JavaScript, Cisco Networking, IoT Integration, Embedded systems, VHDL, HTML, CSS, Java, Kotlin, C++, C\#, GitHub, Arduino, Linux
+
+\vspace{6pt}
+
+\noindent\textbf{Soft skills:} Problem-Solving, Work Ethic, Adaptability, Collaboration, Time Management
+
+\vspace{6pt}
+
+% --- PROJECTS Section ---
+\resumesection{PROJECTS}\textbf{Memory game Web App:} Built an interactive memory game web application featuring 8-48 card configurations to improve focus and cognitive skills.
+\begin{itemize}
+    \item Skills: HTML, CSS, JavaScript
+\end{itemize}
+
+\vspace{6pt}
+
+\noindent\textbf{AI Summarisation tool:} Engineered an AI tool to generate concise summaries from long documents.
+\begin{itemize}
+    \item Skills: Python, NLP (LLM, Prompt Engineering), JavaScript
+    \item Achieved 90\% summarisation accuracy, reducing reading time for complex documents by 40\%
+\end{itemize}
+
+\vspace{6pt}
+
+\noindent\textbf{Voice Assistant for Smart Devices:} Created an intelligent voice assistant using LLM and provide conversational responses for smart home automation.
+\begin{itemize}
+    \item Skills: Python, NLP, Speech processing, IoT integration
+    \item Implemented wake word recognition and voice response system with intuitive display, delivering accurate conversational responses and seamless user interaction
+\end{itemize}
+
+\vspace{6pt}
+
+% --- EXPERIENCE Section ---
+\resumesection{EXPERIENCE}\noindent\textbf{Warehouse Assistant – Amazon (LCY8)} \hfill \textit{November 2022 – February 2023}
+\begin{itemize}
+    \item Managed and sorted packages of different sizes, including those over 15 kg. Operated conveyor belts and pump trucks to ensure efficient processing and delivery
+    \item Achieved a 93\% time-on-task ratio and achieved an average sorting of 40 items per hour, demonstrating high efficiency and productivity in warehouse operations
+\end{itemize}
+
+\vspace{6pt}
+
+% --- EDUCATION Section ---
+\resumesection{EDUCATION}\textbf{University of Greenwich – BEng Hons Computer Engineering} \hfill \textit{September 2022 – July 2025}
+\begin{itemize}
+    \item Graduated with \textbf{First Class honors} in Computer Engineering, demonstrating strong academic performance and practical expertise through hands-on labs and projects
+    \item Strengthened advanced problem-solving and technical skills through complex engineering coursework and projects, while excelling in teamwork and communication to deliver successful outcomes
+\end{itemize}
+
+\end{document}
