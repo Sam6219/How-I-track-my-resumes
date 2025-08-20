@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.7.25)  4 AUG 2025 11:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.7.25)  20 AUG 2025 16:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/samsmac/Desktop/CV Application/LaTeX/Resume.tex"
-(/Users/samsmac/Desktop/CV Application/LaTeX/Resume.tex
+**"/Users/samsmac/Desktop/CV Application/LaTeX copy/How-I-track-my-resumes/Resume.tex"
+(/Users/samsmac/Desktop/CV Application/LaTeX copy/How-I-track-my-resumes/Resume.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
@@ -475,14 +475,14 @@ Package rerunfilecheck Info: File `Resume.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  10560 strings out of 473190
- 166309 string characters out of 5715800
+ 166393 string characters out of 5715800
  583313 words of memory out of 5000000
  33701 multiletter control sequences out of 15000+600000
  617239 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,5n,79p,632b,434s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,5n,79p,661b,434s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-Bold.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-It.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-Regular.pfb>
-Output written on Resume.pdf (1 page, 173756 bytes).
+Output written on Resume.pdf (1 page, 173754 bytes).
 PDF statistics:
  36 PDF objects out of 1000 (max. 8388607)
  25 compressed objects within 1 object stream

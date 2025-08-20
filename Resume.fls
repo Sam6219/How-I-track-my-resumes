@@ -1,8 +1,8 @@
-PWD /Users/samsmac/Desktop/CV Application/LaTeX
+PWD /Users/samsmac/Desktop/CV Application/LaTeX copy/How-I-track-my-resumes
 INPUT /usr/local/texlive/2025/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/samsmac/Desktop/CV Application/LaTeX/Resume.tex
+INPUT /Users/samsmac/Desktop/CV Application/LaTeX copy/How-I-track-my-resumes/Resume.tex
 OUTPUT Resume.log
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
